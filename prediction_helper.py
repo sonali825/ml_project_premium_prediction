@@ -2,11 +2,11 @@ import numpy as np
 from joblib import load
 import pandas as pd
 
-model_rest = load("artifacts\model_rest.joblib")
-model_young = load("artifacts\model_young.joblib")
+model_rest = load("artifacts/model_rest.joblib")
+model_young = load("artifacts/model_young.joblib")
 
-scaler_rest = load("artifacts\scaler_rest.joblib")
-scaler_young = load("artifacts\scaler_young.joblib")
+scaler_rest = load("artifacts/scaler_rest.joblib")
+scaler_young = load("artifacts/scaler_young.joblib")
 
 risk_scores = {
     "diabetes": 6,
